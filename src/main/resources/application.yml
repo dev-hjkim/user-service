@@ -38,6 +38,12 @@ loggin:
   level:
     com.example.userservice: DEBUG
 
-token:
-  expiration_time: 86400000   #하루
-  secret: user_token
+management:
+  endpoint:
+    web:
+      expose:
+        include: '*'
+
+#token:
+#  expiration_time: 86400000   #하루
+#  secret: user_token
